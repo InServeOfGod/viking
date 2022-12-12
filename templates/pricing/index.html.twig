@@ -1,0 +1,19 @@
+{% extends 'base.html.twig' %}
+
+{% block title %} | PRICING{% endblock %}
+
+{% block body_image_mobile %}
+    {{ asset('images/3.jpg') }}
+{% endblock %}
+
+{% block body_image %}
+    {{ asset('images/3.jpg') }}
+{% endblock %}
+
+{% block body %}
+    <h2>Pricing</h2>
+    <p>We offer one price for all tours:</p>
+    <p><span class="h1 bold">$3,870</span> / per person</p>
+    <p>Et nunc quidem quod eam tuetur, ut de vite potissimum loquar, est id extrinsecus. Quid turpius quam sapientis vitam ex insipientium sermone pendere.</p>
+    <p><a href="{{ path('app_contact') }}" class="link link--default">Contact us</a> for group pricing.</p>
+{% endblock %}

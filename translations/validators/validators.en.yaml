@@ -1,0 +1,3 @@
+regex:
+  content: This content can only contain alphanumeric characters or _.,?!'
+  phone: This phone number is not valid

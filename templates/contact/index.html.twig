@@ -1,0 +1,29 @@
+{% extends 'base.html.twig' %}
+
+{% block title %} | CONTACT{% endblock %}
+
+{% block body_image_mobile %}
+    {{ asset('images/4.jpg') }}
+{% endblock %}
+
+{% block body_image %}
+    {{ asset('images/4.jpg') }}
+{% endblock %}
+
+{% block body %}
+    <h2>Contact</h2>
+    <p>We'd love to hear from you. Give us a ring at +44&nbsp;7911&nbsp;123456, or send us a message&nbsp;below.</p>
+    <form class="form">
+        <label class="label" for="name">Name</label>
+        <input class="form-control mb1" id="name">
+        <label class="label" for="email">Email</label>
+        <input class="form-control mb1" type="email" id="email">
+        <label class="label" for="phone">Phone</label>
+        <input class="form-control mb1" type="tel" id="phone">
+        <label class="label" for="message">Message</label>
+        <textarea class="form-control mb2" id="message"></textarea>
+        <div class="clearfix">
+            <input class="btn btn--default float--right" value="Send" type="submit">
+        </div>
+    </form>
+{% endblock %}

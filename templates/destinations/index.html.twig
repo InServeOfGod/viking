@@ -1,0 +1,55 @@
+{% extends 'base.html.twig' %}
+
+{% block title %} | DESTINATIONS{% endblock %}
+
+{% block body_image_mobile %}
+    {{ asset('images/2.jpg') }}
+{% endblock %}
+
+{% block body_image %}
+    {{ asset('images/2.jpg') }}
+{% endblock %}
+
+{% block body %}
+    <h2>Destinations</h2>
+    <div class="border--full rounded pt1 pb1 pr2 pl2 mb1">
+        <div class="grid-row">
+            <div class="grid-column span-half align--center-on-tiny">
+                <p class="mb0 bold">Paris</p>
+            </div>
+            <div class="grid-column span-half align--right align--center-on-tiny">
+                <p class="mb0">June 16 - 21</p>
+            </div>
+        </div>
+    </div>
+    <div class="border--full rounded pt1 pb1 pr2 pl2 mb1">
+        <div class="grid-row">
+            <div class="grid-column span-half align--center-on-tiny">
+                <p class="mb0 bold">Milan</p>
+            </div>
+            <div class="grid-column span-half align--right align--center-on-tiny">
+                <p class="mb0">July 23 - 28</p>
+            </div>
+        </div>
+    </div>
+    <div class="border--full rounded pt1 pb1 pr2 pl2 mb1">
+        <div class="grid-row">
+            <div class="grid-column span-half align--center-on-tiny">
+                <p class="mb0 bold">Vienna</p>
+            </div>
+            <div class="grid-column span-half align--right align--center-on-tiny">
+                <p class="mb0">August 8 - 13</p>
+            </div>
+        </div>
+    </div>
+    <div class="border--full rounded pt1 pb1 pr2 pl2">
+        <div class="grid-row">
+            <div class="grid-column span-half align--center-on-tiny">
+                <p class="mb0 bold">Amsterdam</p>
+            </div>
+            <div class="grid-column span-half align--right align--center-on-tiny">
+                <p class="mb0">September 17 - 22</p>
+            </div>
+        </div>
+    </div>
+{% endblock %}
